@@ -54,6 +54,11 @@
 		interrupts = <GIC_SPI 243 IRQ_TYPE_LEVEL_HIGH>;
 	};
 
+	qcom,cpufreq-cdev {
+		compatible = "qcom,cpufreq-cdev";
+		qcom,cpus = <&CPU0 &CPU4 &CPU7>;
+	};
+
 	ddr_cdev: qcom,ddr-cdev {
 		compatible = "qcom,ddr-cooling-device";
 		#cooling-cells = <2>;
