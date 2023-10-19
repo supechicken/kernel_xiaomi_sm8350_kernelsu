@@ -112,7 +112,7 @@ DEFINE_EVENT(ucsi_log_register_altmode, ucsi_register_altmode,
 /* This part must be outside protection */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../drivers/usb/typec/ucsi
 
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE trace

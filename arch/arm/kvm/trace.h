@@ -78,7 +78,7 @@ TRACE_EVENT(kvm_hvc,
 #endif /* _TRACE_ARM_KVM_H */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../arch/arm/kvm
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE trace
 

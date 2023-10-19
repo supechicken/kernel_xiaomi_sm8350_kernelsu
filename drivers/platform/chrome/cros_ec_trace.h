@@ -45,7 +45,7 @@ DEFINE_EVENT(cros_ec_cmd_class, cros_ec_cmd,
 /* this part must be outside header guard */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../drivers/platform/chrome
 
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE cros_ec_trace

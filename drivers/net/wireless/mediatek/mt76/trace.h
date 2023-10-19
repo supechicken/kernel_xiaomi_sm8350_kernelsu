@@ -54,7 +54,7 @@ DEFINE_EVENT(dev_reg_evt, reg_wr,
 #endif
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../../drivers/net/wireless/mediatek/mt76
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE trace
 

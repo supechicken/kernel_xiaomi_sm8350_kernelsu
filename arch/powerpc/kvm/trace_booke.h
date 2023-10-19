@@ -220,7 +220,7 @@ TRACE_EVENT(kvm_booke_queue_irqprio,
 #undef TRACE_INCLUDE_PATH
 #undef TRACE_INCLUDE_FILE
 
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../arch/powerpc/kvm
 #define TRACE_INCLUDE_FILE trace_booke
 
 #include <trace/define_trace.h>

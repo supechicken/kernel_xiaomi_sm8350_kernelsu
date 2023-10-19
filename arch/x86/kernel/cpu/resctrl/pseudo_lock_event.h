@@ -38,6 +38,6 @@ TRACE_EVENT(pseudo_lock_l3,
 #endif /* _TRACE_PSEUDO_LOCK_H */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../../arch/x86/kernel/cpu/resctrl
 #define TRACE_INCLUDE_FILE pseudo_lock_event
 #include <trace/define_trace.h>

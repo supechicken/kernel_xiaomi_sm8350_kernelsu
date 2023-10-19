@@ -126,7 +126,7 @@ TRACE_EVENT(nvmet_req_complete,
 #endif /* _TRACE_NVMET_H */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../drivers/nvme/target
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE trace
 

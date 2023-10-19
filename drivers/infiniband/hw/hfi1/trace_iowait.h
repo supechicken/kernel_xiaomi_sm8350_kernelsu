@@ -49,6 +49,6 @@ DEFINE_EVENT(hfi1_iowait_template, hfi1_iowait_clear,
 
 #undef TRACE_INCLUDE_PATH
 #undef TRACE_INCLUDE_FILE
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../drivers/infiniband/hw/hfi1
 #define TRACE_INCLUDE_FILE trace_iowait
 #include <trace/define_trace.h>

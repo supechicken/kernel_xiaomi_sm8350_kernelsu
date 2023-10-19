@@ -121,7 +121,7 @@ TRACE_EVENT(kvm_check_requests,
 #undef TRACE_INCLUDE_PATH
 #undef TRACE_INCLUDE_FILE
 
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../arch/powerpc/kvm
 #define TRACE_INCLUDE_FILE trace
 
 #include <trace/define_trace.h>

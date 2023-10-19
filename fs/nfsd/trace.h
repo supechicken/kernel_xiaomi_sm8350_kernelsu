@@ -307,6 +307,6 @@ TRACE_EVENT(nfsd_file_fsnotify_handle_event,
 #endif /* _NFSD_TRACE_H */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../fs/nfsd
 #define TRACE_INCLUDE_FILE trace
 #include <trace/define_trace.h>

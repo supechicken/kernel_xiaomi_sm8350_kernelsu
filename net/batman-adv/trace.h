@@ -64,7 +64,7 @@ TRACE_EVENT(batadv_dbg,
 #endif /* _NET_BATMAN_ADV_TRACE_H_ || TRACE_HEADER_MULTI_READ */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../net/batman-adv
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE trace
 

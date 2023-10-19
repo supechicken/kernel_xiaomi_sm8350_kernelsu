@@ -1002,5 +1002,5 @@ DEFINE_EVENT(dpu_hw_ctl_pending_flush_template, dpu_hw_ctl_trigger_start,
 
 /* This part must be outside protection */
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../../../drivers/gpu/drm/msm/disp/dpu1
 #include <trace/define_trace.h>

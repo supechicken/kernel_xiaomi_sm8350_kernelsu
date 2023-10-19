@@ -50,6 +50,6 @@ TRACE_EVENT(ion_stat,
 
 /* This part must be outside protection */
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../drivers/staging/android/ion
 #define TRACE_INCLUDE_FILE ion_trace
 #include <trace/define_trace.h>

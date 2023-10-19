@@ -499,7 +499,7 @@ TRACE_EVENT(kvmppc_run_vcpu_exit,
 #undef TRACE_INCLUDE_PATH
 #undef TRACE_INCLUDE_FILE
 
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../arch/powerpc/kvm
 #define TRACE_INCLUDE_FILE trace_hv
 
 #include <trace/define_trace.h>

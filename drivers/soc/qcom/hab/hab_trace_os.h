@@ -152,7 +152,7 @@ TRACE_EVENT(hab_vchan_recv_done,
 
 /* This part must be outside protection */
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../drivers/soc/qcom/hab
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE hab_trace_os
 

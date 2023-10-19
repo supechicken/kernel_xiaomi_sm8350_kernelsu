@@ -485,7 +485,7 @@ DEFINE_EVENT(cdns3_log_request_handled, cdns3_request_handled,
 /* this part must be outside header guard */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../drivers/usb/cdns3
 
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE trace

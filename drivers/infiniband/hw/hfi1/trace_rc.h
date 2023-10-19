@@ -161,6 +161,6 @@ DEFINE_EVENT(/* do_rc_ack */
 
 #undef TRACE_INCLUDE_PATH
 #undef TRACE_INCLUDE_FILE
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../drivers/infiniband/hw/hfi1
 #define TRACE_INCLUDE_FILE trace_rc
 #include <trace/define_trace.h>

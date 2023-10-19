@@ -99,6 +99,6 @@ TRACE_EVENT(amdgpu_dc_performance,
 #endif /* _AMDGPU_DM_TRACE_H_ */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../../../drivers/gpu/drm/amd/display/amdgpu_dm
 #define TRACE_INCLUDE_FILE amdgpu_dm_trace
 #include <trace/define_trace.h>

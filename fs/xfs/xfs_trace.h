@@ -3633,6 +3633,6 @@ TRACE_EVENT(xfs_check_new_dalign,
 #endif /* _TRACE_XFS_H */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../fs/xfs
 #define TRACE_INCLUDE_FILE xfs_trace
 #include <trace/define_trace.h>

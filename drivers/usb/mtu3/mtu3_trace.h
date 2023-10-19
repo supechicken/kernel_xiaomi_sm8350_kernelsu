@@ -271,7 +271,7 @@ DEFINE_EVENT(mtu3_log_ep, mtu3_gadget_ep_set_halt,
 /* this part has to be here */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../drivers/usb/mtu3
 
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE mtu3_trace

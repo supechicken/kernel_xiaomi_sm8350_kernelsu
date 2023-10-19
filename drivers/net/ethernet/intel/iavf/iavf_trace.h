@@ -203,7 +203,7 @@ DEFINE_EVENT(
  * module.
  */
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../../drivers/net/ethernet/intel/iavf
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE iavf_trace
 #include <trace/define_trace.h>

@@ -879,6 +879,6 @@ DEFINE_SMB3_CREDIT_EVENT(credit_timeout);
 #endif /* _CIFS_TRACE_H */
 
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../fs/cifs
 #define TRACE_INCLUDE_FILE trace
 #include <trace/define_trace.h>
